@@ -1,0 +1,44 @@
+{
+  "name": "-",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.1.0",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.2.3",
+    "cors": "^2.8.5",
+    "country-state-city": "^3.1.4",
+    "datatables": "^1.10.18",
+    "datatables.net": "^1.13.4",
+    "datatables.net-buttons": "^2.3.6",
+    "datatables.net-dt": "^1.13.4",
+    "express": "^4.18.2",
+    "jquery": "^3.6.4",
+    "mongoose": "^7.1.0",
+    "nodemon": "^2.0.22",
+    "react": "^18.2.0",
+    "react-data-table-component": "^7.5.3",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-router-dom": "^6.11.0",
+    "styled-components": "^5.3.10",
+    "yup": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "vite": "^4.3.2"
+  }
+}
